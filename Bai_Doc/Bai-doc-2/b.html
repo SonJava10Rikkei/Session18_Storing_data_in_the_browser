@@ -8,11 +8,23 @@
   </head>
   <body></body>
   <script>
+    // ///////////  Lấy ra domain javascript.info từ trình duyệt của người dùng //////////////
+
+    //   /////////  1.localStorage Object ////////
+
     if (typeof Storage !== "undefined") {
       var domain = localStorage.getItem("domain");
       document.write(domain); // kết quả javascript.info
     } else {
       document.write("Trình duyệt của bạn không hỗ trợ local storage");
     }
+
+    //   /////////  2.sessionStorage Object ////////
+
+    // if (typeof Storage !== "undefined") {
+    //   document.write(sessionStorage.domain); // kết quả javascript.info
+    // } else {
+    //   document.write("Trình duyệt của bạn không hỗ trợ local storage");
+    // }
   </script>
 </html>
