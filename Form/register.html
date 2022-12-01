@@ -7,29 +7,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Đăng ký ngay | Shopee Việt Nam</title>
   <link rel="icon" type="image/x-icon" href="/Form/img/shopee-logo-faincon.png">
-  <link rel="stylesheet" href="/Form/css/styleRegister.css" />
+  <link rel="stylesheet" href="/Form/css/stylelogin.css" />
 </head>
 
 <body>
   <div class="container">
     <form action="" method="post">
       <div class="row">
-        <a href="/Form/index.html" rel="nofollow">ĐĂNG NHẬP</a>
-        <a href="/Form/indexRegister.html" class="active" rel="nofollow">ĐĂNG KÝ</a>
+        <a href="/Form/login.html" rel="nofollow">ĐĂNG NHẬP</a>
+        <a href="/Form/register.html" class="active" rel="nofollow">ĐĂNG KÝ</a>
       </div>
       <div class="col_1">
-        <!-- <label for="">Tài Khoản</label> <br /> -->
-        <input type="id" placeholder="Nhập email hoặc tên đăng nhập" /><br />
-        <p><br /></p>
+        <div>
+          <!-- <label for="">Tài Khoản</label> <br /> -->
+          <input type="id" placeholder="Nhập email hoặc tên đăng nhập" /><br />
+          <p><br /></p>
+        </div>
 
 
-        <!-- <label for="">Mật Khẩu</label> <br /> -->
-        <input type="password" placeholder="Mật khẩu chữ cái đầu viết hoa" /><br />
-        <p><br /></p>
 
-        <!-- <label for="">Xác nhận mật khẩu</label> <br /> -->
-        <input type="password" placeholder="Xác nhận lại mật khẩu" /><br />
-        <p><br /></p>
+
+        <div class="inputPassword">
+          <div class="inputText">
+            <!-- <label for="">Mật Khẩu</label> <br /> -->
+            <input type="password" placeholder="Mật khẩu chữ cái đầu viết hoa" /><br />
+          </div>
+          <div class="inputEye">
+            <i class="fa-sharp fa-solid fa-eye-slash"></i>
+          </div>
+          <p><br /></p>
+        </div>
+
+        <div class="inputPassword2">
+          <div class="inputText2">
+            <!-- <label for="">Xác nhận mật khẩu</label> <br /> -->
+            <input type="password" placeholder="Xác nhận lại mật khẩu" /><br />
+          </div>
+          <div class="inputEye2">
+            <i class="fa-sharp fa-solid fa-eye-slash"></i>
+          </div>
+          <p><br /></p>
+        </div>
+
         <input style="height: 40px; width: 200px;" type="submit" value="ĐĂNG KÝ" />
         <p style="font-size: 12px;">
           <a href="links/quen/mat/khau" style="color: rgb(5, 3, 102); text-decoration: none; "> <i>Quên mật khẩu?</i>
@@ -81,5 +100,7 @@
     </div>
   </div>
 </body>
+<script src="https://kit.fontawesome.com/7de9ee439a.js" crossorigin="anonymous"></script>
+<script src="/Form/js/register.js"></script>
 
 </html>

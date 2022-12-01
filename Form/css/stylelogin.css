@@ -45,18 +45,7 @@ body {
   border-bottom: 2px solid #10a2f7;
   color: #fd2a00;
 }
-input,
-.btn {
-  width: 88%;
-  padding: 10px;
-  border: none;
-  border-radius: 4px;
-  margin: 5px 0;
-  opacity: 0.85;
-  display: inline-block;
-  line-height: 10px;
-  text-decoration: none;
-}
+
 input[type="submit"] {
   background-color: #ff7403;
   color: white;
@@ -70,6 +59,44 @@ input[type="submit"]:hover {
 .col_1 {
   text-align: center;
   margin-top: 20px;
+}
+
+.inputPassword input {
+  position: relative;
+}
+.inputEye {
+  color: rgb(167, 167, 167);
+  /* padding: 0 12px; */
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  position: absolute;
+  top: 150px;
+  right: 9%;
+}
+.inputPassword2 input {
+  position: relative;
+}
+.inputEye2 {
+  color: rgb(167, 167, 167);
+  /* padding: 0 12px; */
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  position: absolute;
+  top: 216px;
+  right: 9%;
+}
+
+input,
+.btn {
+  width: 88%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  line-height: 10px;
+  text-decoration: none;
 }
 .strikethrough {
   margin-top: 7px;
