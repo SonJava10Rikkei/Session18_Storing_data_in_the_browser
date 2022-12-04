@@ -6,18 +6,23 @@
   font-family: Neue Kabel, sans-serif;
   font-size: 16px;
 }
-
+header {
+  position: fixed;
+  height: 150px;
+  width: 100%;
+}
 .c-layout {
   background-color: rgb(234, 236, 236);
-  height: 900px;
+  height: 2000px;
 }
 
 .container-header {
   /* background-color: rgba(14, 119, 224, 0.377); */
-  background-image: url(/Mini_Project/media/img/header_bg_top.jpg);
+  /* background-image: url(/Mini_Project/assets/img/header_bg_top.jpg); */
   display: flex;
   height: 50px;
   text-align: center;
+  height: 40px;
 }
 .t-header_contactLeft {
   align-items: center;
@@ -28,6 +33,9 @@
   text-decoration: none;
   text-align: center;
   padding-right: 121px;
+  outline: none;
+  padding: 0;
+  white-space: nowrap;
 }
 .t-header_contactRight_btn {
   align-items: center;
@@ -47,6 +55,7 @@
   white-space: nowrap;
 }
 .t-header_contactRight_element {
+  background-color: #bab9ba;
   display: flex;
   align-items: center;
   flex-grow: 1;
@@ -90,6 +99,11 @@
   justify-content: center;
   outline: none;
   width: 2rem;
+}
+
+.header_bottom {
+  background-color: violet;
+  height: 90px;
 }
 
 /* Doi mau  */
